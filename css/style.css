@@ -1,0 +1,150 @@
+*{
+    margin: 0 auto;
+    padding: 0;
+}
+body{
+    background-image: url(../img/Image20240225155121.png);
+}
+.frame{
+    max-width: 800px;
+}
+header{
+    width: 100%;
+}
+header img{
+    width: 100%;
+}
+header a:hover{
+    color: red;
+}
+nav{
+    display: flex;
+    background-color: RGB(236,222,237);
+}
+nav .searchArea input[type="button"]{
+    background-color: rgb(63, 124, 255); border:none; padding: 2px; color: white; font-weight: bold; border-radius: 3px 3px 3px 3px;
+}
+nav a{
+    font-weight: bold;
+    text-decoration: none;
+}
+nav .lv1{
+    margin-left: 0;
+    list-style-type: none;
+    display: flex;
+    position: relative;
+}
+nav .lv2{
+    list-style-type: none;
+}
+nav .lv1 li{
+    margin: 10px 15px;
+}
+nav .lv1 li .lv2{
+    display: none;
+    position: absolute;
+}
+nav .lv1 li:hover .lv2{
+    display: block;
+    background-color: RGB(236,222,237);
+    left: 190px;
+}
+nav .searchArea{
+    margin: 10px 15px;
+}
+nav .searchArea label{
+    color: red;
+    font-weight: bold;
+}
+nav a{
+    text-decoration: none;
+}
+.center{
+    height: 413px;
+    width: 100%;
+}
+.center aside{
+    border: 4px solid rgb(218, 218, 218);
+    height: 100%;
+    float: right;
+    width: 33%;
+}
+.center aside img{
+    width: 97%;
+    margin: 5px 5px;
+    box-shadow: 3px 3px 3px gray;
+}
+.center aside h2{
+    color: red;
+    text-align: center;
+    border-bottom: 1px dotted black;
+    text-shadow: 2px 2px 1px yellow;
+}
+.center aside h3{
+    border-bottom: 2px dotted black;
+    font-size: 19px;
+    text-align: center;
+    text-shadow: 2px 2px 1px yellow;
+    color: rgb(197, 0, 0);
+}
+.center .content{
+    float: left;
+    width: 66%;
+    height: 100%;
+    background-color:  #b8e3e9;
+}
+.content p{
+    margin: 10px 10px;
+    font-family: Arial;
+    float: left;
+    width: 48%;
+}
+.content #contentTitle{
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 20px;
+    color: rgb(216, 0, 0);
+}
+.content form{
+    font-size: 21px;
+    float: right;
+    width: 35%;
+    margin-right: 55px;
+}
+.content form fieldset{
+    padding: 5px 5px;
+    border-radius: 10px 10px 10px 10px;
+    box-shadow: 5px 5px 5px rgb(114, 114, 114);
+}
+.content form input{
+    height: 25px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px 5px 5px 5px;
+}
+.content form input[type="submit"]{
+    font-weight: bold;
+    border: none;
+    margin: 10px 5px;
+    width: 60px;
+}.content form input[type="reset"]{
+    border: none;
+    font-weight: bold;
+    width: 60px;
+    margin: 10px 5px;
+}
+footer{
+    height: 50px;
+    width: 100%;
+    float: left;
+    background-color:  #cbcc66;
+}
+footer p{
+    margin: 13px 20px;
+}
+footer #ten{
+    float: left;
+}
+footer #lop{
+    float: right;
+}
